@@ -1,0 +1,544 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+header {
+	background: black;
+	padding: 1.8em 0;
+}
+
+.caixa_header {
+	position: relative;
+	width: 60em;
+	margin: 0 auto;
+}
+
+#jr_header {
+	width: 14em;
+	display: block;
+}
+
+nav {
+	position: absolute;
+	top: 6.875em;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 .625em;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #166B8F;
+	text-decoration: underline;
+}
+
+main {
+	background: #01131B;
+}
+
+.banner_1 {
+	width: 100%;
+	margin: -3px 0;
+
+}
+
+
+.quadro_menor_1 {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.img_jessica_1 {
+	width: 15%;
+	float: left;
+	margin: 0 20px 20px 0;
+
+}
+
+.about_1 p {
+	color: #F8722F;
+	padding: 1em;
+	margin: 0 0 0 2em;
+}
+
+.banner_fino {
+	width: 100%;
+	margin: -3px;
+}
+
+.titulos_principais {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	color: #166B8F;
+	font-weight: bold;
+	padding: 1em 0 0 0;
+}
+
+.about_2 {
+	background: linear-gradient(#F8722F 40%, #166B8F);
+	padding: 0 0 1em 0;
+}
+
+
+.quadro_menor_2 {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.img_jessica_2 {
+	width: 20%;
+	float: right;
+	margin: 0 20px 20px 0;
+
+}
+
+.about_2 p {
+	color: black;
+	padding: 1em;
+	margin: 0 0 0 2em;
+	text-align: center;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+	height: 480px;
+}
+
+.titulos_principais_laranja {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	color: #F8722F;
+	font-weight: bold;
+	padding: 1em;
+}	
+
+.beneficios {
+	padding: 0 0 5em 0;
+	background: #166B8F;
+
+}
+
+.conteudo_beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista_beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imagem_beneficios {
+	width: 30%;
+	float: right;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "★";
+	font-size: 1.4em;
+}
+
+.facebook {
+	width: 500px;
+	margin: 2em auto 0;
+	padding: 2em;
+}
+
+footer {
+	text-align: center;
+	background: black;
+	padding: 1em;
+}
+
+.copyright {
+	color: white;
+}
+
+.img_duvidas {
+	width: 15%;
+	float: right;
+}
+
+.valor_aulas {
+	background: #166B8F;
+	padding: 1.4em;
+}
+
+.valor_aulas h3 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.aula_online, .aula_presencial {
+	font-size: 1.2em;
+	padding: 0.6em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.list_aulas {
+	width: 940px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+.list_aulas li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background: #F8722F;
+	transition: 0.5s all;
+}
+.list_aulas a {
+	color: black;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.list_aulas li:hover {
+	transform: scale(1.2);
+}
+
+.img_internet {
+	width: 3em;
+}
+
+.img_presencial {
+	width: 3em;
+}
+
+.titulos_principais_preto {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	color: black;
+	font-weight: bold;
+}	
+
+.local_atendimento p {
+	padding: 0 0 2em;
+	width: 940px;
+	margin: 0 auto;
+	font-size: 1.5em;
+	color: #F8722F;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mapa {
+	padding: 2em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.img_pais {
+	width: 15%;
+	float: right;
+}
+
+
+.cursos {
+	background: #166B8F;
+	padding: 1.4em;
+}
+
+
+.cursos h3 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.p_cursos_completos {
+	font-size: 1.2em;
+	padding: 0.6em;
+}
+
+.list_cursos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+.list_cursos li {
+	display: inline-block;
+	text-align: center;
+	width: 44%;
+	vertical-align: top;
+	margin: 0 2.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background: #F8722F;
+	transition: 0.5s all;
+}
+
+.list_cursos li:hover {
+	transform: scale(1.2);
+}
+
+.list_cursos a {
+	color: black;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+form {
+	margin: 40px 0;
+	color: #F8722F;
+	font-weight: bold;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px;
+}
+
+.formulario_1 {
+	padding: 2em;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.input_padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #166B8F;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+	border: none;
+	border-radius: 0.3em;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #F8722F;
+	transform: scale(1.2);
+
+}
+
+@media screen and (max-width: 940px) {
+	header {
+	background: black;
+	padding: 0.5em 0;
+}
+
+#jr_header {
+	width: 50%;
+	display: inline;
+}
+
+h1 {
+	text-align: center;
+	padding: 15%;
+}
+
+.caixa_header, .titulos_principais, .quadro_menor_1, .quadro_menor_2 {
+	width: auto;
+	padding: 1em 1em 1em 1em;
+
+}
+
+.titulos_principais {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.video {
+	width: auto;
+	height: auto;
+	padding: 1em 1em 1em 1em;
+}
+
+nav {
+	position: static;
+	text-align: center;
+	font-size: .6em;
+
+}
+
+.img_jessica_1, .img_jessica_2 {
+	width: 30%;
+	margin: 5% 5% 5% 5%;
+}
+
+
+.titulos_principais_laranja {
+	font-size: 1.4em;
+	font-weight: bold;
+}	
+
+.beneficios {
+	padding: 1em;
+	background: #166B8F;
+
+}
+
+.conteudo_beneficios {
+	width: auto;
+	margin: 0 auto;
+}
+
+.lista_beneficios {
+	width: 40%;
+	display: inline;
+	vertical-align: top;
+}
+
+.imagem_beneficios {
+	width: 0;
+}
+
+.facebook {
+	width: auto;
+	margin: 1em 1em 0 1em;
+	padding: 1em;
+}
+
+
+.img_footer {
+	width: 80%;
+}
+
+
+.valor_aulas h3 {
+	font-size: 1em;
+}
+
+
+.list_aulas {
+	width: auto;
+	padding: 1em 1em 1em 1em;
+}
+
+.list_aulas li {
+	display: block;
+	width: 100%;
+	margin: 1% 1.5%;
+	padding: 1em 1em 1em 1em;
+}
+
+
+.titulos_principais_preto {
+	font-size: 1em;
+}
+
+.local_atendimento p {
+	width: auto;
+	font-size: 1em;
+}
+
+.mapa {
+	padding: 1em 1em 1em 1em;
+	width: auto;
+}
+
+
+
+.cursos {
+	padding: 1em;
+}
+
+
+.cursos h3 {
+	font-size: 1em;
+}
+
+.list_cursos {
+	width: auto;
+}
+
+.list_cursos li {
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	margin: 0;
+	padding: 3% 3% 3%;
+}
+
+
+form {
+	margin: 5% 0;
+}
+
+form label, form legend {
+	font-size: 1em;
+	margin: 0;
+}
+
+.formulario_1 {
+	padding: 1em 1em 1em 1em;
+	width: 140%;
+	margin: 0 0;
+}
+
+.input_padrao {
+	display: block;
+	margin: 0 0 2em;
+	padding: .5em .5em .5em .5em;
+	width: 50%;
+}
+
+
+
+.enviar {
+	width: 30%;
+	padding: auto;
+	font-size: 1em;
+	margin: 1em;
+}
+
+.enviar:hover {
+	background: #F8722F;
+	transform: scale(1.2);
+}
+
